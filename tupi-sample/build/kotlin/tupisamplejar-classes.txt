@@ -1,0 +1,1 @@
+/Users/gibran/Documents/Projetos/pocs/tupi/tupi-sample/build/classes/kotlin/main/tupi/sample/MainKt.class:/Users/gibran/Documents/Projetos/pocs/tupi/tupi-sample/build/classes/kotlin/main/tupi/sample/Order.class:/Users/gibran/Documents/Projetos/pocs/tupi/tupi-sample/build/classes/kotlin/main/tupi/sample/Teste.class

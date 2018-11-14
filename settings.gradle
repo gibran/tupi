@@ -1,0 +1,5 @@
+rootProject.name = 'tupi'
+include 'tupi-annotation'
+include 'tupi-processor'
+include 'tupi-sample'
+

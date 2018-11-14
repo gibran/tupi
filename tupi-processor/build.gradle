@@ -1,0 +1,38 @@
+apply plugin: 'kotlin'
+apply plugin: 'kotlin-kapt'
+
+repositories {
+    mavenCentral()
+}
+
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+compileTestKotlin {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile "org.jetbrains.kotlin:kotlin-reflect:1.3.0"
+
+    implementation project(':tupi-annotation')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+
+    // Code generation library for kotlin, highly recommended
+    implementation 'com.squareup:kotlinpoet:0.7.0'
+
+    //configuration generator for service providers
+    implementation "com.google.auto.service:auto-service:1.0-rc4"
+    kapt "com.google.auto.service:auto-service:1.0-rc4"
+
+    //test
+    testCompile 'org.assertj:assertj-core:3.11.0'
+    testCompile 'org.jetbrains.kotlin:kotlin-test-junit:1.2.61'
+    testCompile 'com.google.testing.compile:compile-testing:0.15'
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="tupi-annotation_main" target="1.8" />
+      <module name="tupi-annotation_test" target="1.8" />
+      <module name="tupi-processor_main" target="1.8" />
+      <module name="tupi-processor_test" target="1.8" />
+      <module name="tupi-sample_main" target="1.8" />
+      <module name="tupi-sample_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

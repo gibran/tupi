@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.truth:truth:0.37">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.truth/truth/0.37/d073fb8b230928122fd93ed6036c94a0ac9922d/truth-0.37.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.truth/truth/0.37/d4dcbede184fb461f0cf6bebf9be271d8dd53748/truth-0.37-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

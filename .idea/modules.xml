@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tupi.iml" filepath="$PROJECT_DIR$/tupi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tupi-annotation/tupi-annotation.iml" filepath="$PROJECT_DIR$/.idea/modules/tupi-annotation/tupi-annotation.iml" group="tupi-annotation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tupi-annotation/tupi-annotation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tupi-annotation/tupi-annotation_main.iml" group="tupi-annotation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tupi-annotation/tupi-annotation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tupi-annotation/tupi-annotation_test.iml" group="tupi-annotation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tupi-processor/tupi-processor.iml" filepath="$PROJECT_DIR$/.idea/modules/tupi-processor/tupi-processor.iml" group="tupi-processor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tupi-processor/tupi-processor_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tupi-processor/tupi-processor_main.iml" group="tupi-processor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tupi-processor/tupi-processor_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tupi-processor/tupi-processor_test.iml" group="tupi-processor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tupi-sample/tupi-sample.iml" filepath="$PROJECT_DIR$/.idea/modules/tupi-sample/tupi-sample.iml" group="tupi-sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tupi-sample/tupi-sample_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tupi-sample/tupi-sample_main.iml" group="tupi-sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tupi-sample/tupi-sample_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tupi-sample/tupi-sample_test.iml" group="tupi-sample" />
+    </modules>
+  </component>
+</project>

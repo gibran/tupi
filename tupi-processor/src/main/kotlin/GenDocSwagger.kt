@@ -2,12 +2,15 @@ package tupi.processor
 
 import com.google.auto.service.AutoService
 import tupi.annotations.*
+import tupi.processor.yaml.extensions.isKotlinType
+import tupi.processor.yaml.extensions.toYaml
 import java.io.File
 import javax.annotation.processing.*
 import javax.lang.model.SourceVersion
-import javax.lang.model.element.ElementKind
-import javax.lang.model.element.Modifier
-import javax.lang.model.element.TypeElement
+import javax.lang.model.element.*
+import javax.lang.model.type.ArrayType
+import javax.lang.model.type.DeclaredType
+import javax.lang.model.type.TypeKind
 import javax.tools.Diagnostic
 
 
@@ -21,13 +24,13 @@ class GenDocSwagger : AbstractProcessor() {
     }
 
     override fun getSupportedAnnotationTypes(): MutableSet<String> =
-        mutableSetOf(SwaggerRoute::class.java.canonicalName)
+            mutableSetOf(SwaggerRoute::class.java.canonicalName)
 
     override fun getSupportedSourceVersion(): SourceVersion = SourceVersion.latest()
 
     override fun process(
-        annotations: MutableSet<out TypeElement>,
-        roundEnv: RoundEnvironment
+            annotations: MutableSet<out TypeElement>,
+            roundEnv: RoundEnvironment
     ): Boolean {
 
         val annotatedElements = roundEnv.getElementsAnnotatedWith(SwaggerRoute::class.java)
@@ -36,8 +39,8 @@ class GenDocSwagger : AbstractProcessor() {
 
         val kaptKotlinGeneratedDir = processingEnv.options[KAPT_KOTLIN_GENERATED_OPTION_NAME] ?: run {
             processingEnv.messager.printMessage(
-                Diagnostic.Kind.ERROR,
-                "Can't find the target directory for generated Kotlin files."
+                    Diagnostic.Kind.ERROR,
+                    "Can't find the target directory for generated Kotlin files."
             )
             return false
         }
@@ -48,19 +51,18 @@ class GenDocSwagger : AbstractProcessor() {
         File(kaptKotlinGeneratedDir, "$fileName.yml").bufferedWriter().use { out ->
 
             annotatedElements
-                .forEach { controllerElement ->
-                    if (controllerElement.kind != ElementKind.CLASS) {
-                        processingEnv.messager.printMessage(
-                            Diagnostic.Kind.ERROR,
-                            "Can only be applied to class,  element: $controllerElement "
-                        )
-                        return false
+                    .forEach { controllerElement ->
+                        if (controllerElement.kind != ElementKind.CLASS) {
+                            processingEnv.messager.printMessage(
+                                    Diagnostic.Kind.ERROR,
+                                    "Can only be applied to class,  element: $controllerElement "
+                            )
+                            return false
+                        }
+
+                        yaml.addRoute(controllerElement)
+
                     }
-
-
-                    yaml.addRoute(controllerElement)
-
-                }
 
             out.write(yaml.write())
         }

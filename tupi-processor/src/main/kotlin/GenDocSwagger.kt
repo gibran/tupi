@@ -43,7 +43,7 @@ class GenDocSwagger : AbstractProcessor() {
 
         val fileName = "swagger_api"
 
-        val yaml = YamlBuilder(processingEnv)
+        val yaml = YamlBuilder(processingEnv.typeUtils)
 
         File(kaptKotlinGeneratedDir, "$fileName.yml").bufferedWriter().use { out ->
 

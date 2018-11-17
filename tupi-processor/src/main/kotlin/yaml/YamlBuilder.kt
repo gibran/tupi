@@ -5,9 +5,9 @@ import tupi.processor.extensions.*
 
 import javax.lang.model.element.*
 import javax.lang.model.type.*
-import javax.annotation.processing.ProcessingEnvironment
+import javax.lang.model.util.Types
 
-internal class YamlBuilder(private val context: ProcessingEnvironment) {
+internal class YamlBuilder(private val types: Types) {
 
     private val operations = ArrayList<YamlOperation>()
     private val definitions = HashMap<String, YamlDefinition>()
@@ -33,7 +33,7 @@ internal class YamlBuilder(private val context: ProcessingEnvironment) {
                         responsesAnnotation?.values?.forEach { responseAnnotation ->
 
                             val typeMirror = getReturnedType(responseAnnotation) ?: return
-                            val returnedType = context.typeUtils.asElement(typeMirror) as TypeElement
+                            val returnedType = types.asElement(typeMirror) as TypeElement
 
                             yamlOperation.responses[typeMirror.toString()] = YamlResponse(returnedType, responseAnnotation)
                             addDefinition(typeMirror, returnedType)
@@ -43,7 +43,7 @@ internal class YamlBuilder(private val context: ProcessingEnvironment) {
                             val paramField = YamlParameter(parameter)
                             yamlOperation.parameters[parameter.paramName] = paramField
 
-                            val returnedType = context.typeUtils.asElement(paramField.parameterType) as TypeElement
+                            val returnedType = types.asElement(paramField.parameterType) as TypeElement
                             addDefinition(paramField.parameterType, returnedType)
                         }
 

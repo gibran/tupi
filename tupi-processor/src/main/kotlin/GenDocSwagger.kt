@@ -2,7 +2,7 @@ package tupi.processor
 
 import com.google.auto.service.AutoService
 import tupi.annotations.*
-import tupi.processor.yaml.YamlBuilder
+import tupi.processor.yaml.YamlSerializer
 import java.io.File
 import javax.annotation.processing.*
 import javax.lang.model.SourceVersion
@@ -43,7 +43,7 @@ class GenDocSwagger : AbstractProcessor() {
 
         val fileName = "swagger_api"
 
-        val yaml = YamlBuilder(processingEnv.typeUtils)
+        val yaml = YamlSerializer(processingEnv.typeUtils)
 
         File(kaptKotlinGeneratedDir, "$fileName.yml").bufferedWriter().use { out ->
 

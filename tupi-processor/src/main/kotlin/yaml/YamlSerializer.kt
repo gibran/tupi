@@ -7,7 +7,7 @@ import javax.lang.model.element.*
 import javax.lang.model.type.*
 import javax.lang.model.util.Types
 
-internal class YamlBuilder(private val types: Types) {
+internal class YamlSerializer(private val types: Types) {
 
     private val operations = ArrayList<YamlOperation>()
     private val definitions = HashMap<String, YamlDefinition>()
@@ -26,26 +26,12 @@ internal class YamlBuilder(private val types: Types) {
                         val operationAnnotation = operationElement.getAnnotation(SwaggerOperation::class.java)
                         val responsesAnnotation = operationElement.getAnnotation(SwaggerResponses::class.java)
                         val parametersAnnotation = operationElement.getAnnotation(SwaggerParameters::class.java)
-                        //TODO: Obter parametros
 
                         val yamlOperation = YamlOperation(annotationController.routePath, operationElement.simpleName.toString(), operationAnnotation)
 
-                        responsesAnnotation?.values?.forEach { responseAnnotation ->
+                        buildResponses(responsesAnnotation, yamlOperation)
 
-                            val typeMirror = getReturnedType(responseAnnotation) ?: return
-                            val returnedType = types.asElement(typeMirror) as TypeElement
-
-                            yamlOperation.responses[typeMirror.toString()] = YamlResponse(returnedType, responseAnnotation)
-                            addDefinition(typeMirror, returnedType)
-                        }
-
-                        parametersAnnotation?.values?.forEach { parameter ->
-                            val paramField = YamlParameter(parameter)
-                            yamlOperation.parameters[parameter.paramName] = paramField
-
-                            val returnedType = types.asElement(paramField.parameterType) as TypeElement
-                            addDefinition(paramField.parameterType, returnedType)
-                        }
+                        buildParameters(parametersAnnotation, yamlOperation)
 
                         operations.add(yamlOperation)
                     }
@@ -69,6 +55,33 @@ internal class YamlBuilder(private val types: Types) {
         }
     }
 
+    private fun buildDefinitions(yamlDefinitions: HashMap<String, String>) {
+        definitions.forEach { definition ->
+            definition.value.toYaml(yamlDefinitions)
+        }
+    }
+
+    private fun buildParameters(parametersAnnotation: SwaggerParameters?, yamlOperation: YamlOperation) {
+        parametersAnnotation?.values?.forEach { parameter ->
+            val paramField = YamlParameter(parameter)
+            yamlOperation.parameters[parameter.paramName] = paramField
+
+            val returnedType = types.asElement(paramField.parameterType) as TypeElement
+            addDefinition(paramField.parameterType, returnedType)
+        }
+    }
+
+    private fun buildResponses(responsesAnnotation: SwaggerResponses?, yamlOperation: YamlOperation) {
+        responsesAnnotation?.values?.forEach { responseAnnotation ->
+
+            val typeMirror = getReturnedType(responseAnnotation) ?: return
+            val returnedType = types.asElement(typeMirror) as TypeElement
+
+            yamlOperation.responses[typeMirror.toString()] = YamlResponse(returnedType, responseAnnotation)
+            addDefinition(typeMirror, returnedType)
+        }
+    }
+
     fun write(): String {
         buildDefinitions(yamlDefinitions)
 
@@ -77,7 +90,7 @@ internal class YamlBuilder(private val types: Types) {
         result.appendln("openapi: 3.0.0")
                 .appendln("info:")
                 .appendln("\tversion: 1.0.0")
-                .appendln("\ttitle: CARD")
+                .appendln("\ttitle: CARD") //TODO: Obter esta informação da configuração
 
         result.appendln("paths:")
         operations.forEach { routes ->
@@ -96,9 +109,4 @@ internal class YamlBuilder(private val types: Types) {
         return result.toString().replaceAll("\t", "  ")
     }
 
-    private fun buildDefinitions(yamlDefinitions: HashMap<String, String>) {
-        definitions.forEach { definition ->
-            definition.value.toYaml(yamlDefinitions)
-        }
-    }
 }

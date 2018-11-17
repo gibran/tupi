@@ -1,7 +1,7 @@
 import com.google.testing.compile.CompilationRule
 import javax.lang.model.util.*
 import org.junit.*
-import tupi.processor.yaml.YamlBuilder
+import tupi.processor.yaml.YamlSerializer
 import controllers.HelloController
 
 class YamlSerializerTest {
@@ -35,7 +35,7 @@ class YamlSerializerTest {
     fun `should be test serialize with controller with one operator that return a simple class`() {
         val element = elements!!.getTypeElement(HelloController::class.qualifiedName)
 
-        val ymlBuilder = YamlBuilder(types!!)
+        val ymlBuilder = YamlSerializer(types!!)
         ymlBuilder.addRoute(element)
         val result = ymlBuilder.write()
 
@@ -45,7 +45,7 @@ class YamlSerializerTest {
     fun `should be test serialize with controller with one operator that return a complex class`() {
         val element = elements!!.getTypeElement(HelloController::class.qualifiedName)
 
-        val ymlBuilder = YamlBuilder(types!!)
+        val ymlBuilder = YamlSerializer(types!!)
         ymlBuilder.addRoute(element)
         val result = ymlBuilder.write()
 

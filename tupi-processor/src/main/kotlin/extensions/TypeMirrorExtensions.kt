@@ -22,6 +22,7 @@ fun TypeMirror.toYaml(): String {
                 if (this.isCollection()) {
                     result.append(parseCollectionToYaml(this))
                 } else {
+                    //TODO: Verificar se é do tipo date ou datetime
                     result.append("type: string")
                 }
             }

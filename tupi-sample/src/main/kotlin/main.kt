@@ -13,8 +13,11 @@ class Teste {
 
     @SwaggerOperation(OperationType.GET, "/{id}", "Show data for a given account.")
     @SwaggerResponses([SwaggerResponse(200, "Successful operation", Order::class)])
+    @SwaggerParameters(
+            [SwaggerParameter(ParameterType.PATH, "id", User::class, true, "Dados do usuário")]
+    )
     // SwaggerResponse(400, "NotFound")])
-    fun Obter(@SwaggerParameter(ParameterType.PATH) id: String, price: String?, order: Order, itens: Array<String>, itens1: Array<Order>, itens2: List<String>, itens3: MutableList<Order>): String {
+    fun Obter( id: User): String {
         return "ok"
     }
 

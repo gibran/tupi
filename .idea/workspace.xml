@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tupi-processor:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/GenDocSwagger.kt" description="out.newLine()" line="62" />
+    <bookmark url="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/GenDocSwagger.kt" description="out.newLine()" line="59" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f43be0a-357b-432a-beac-0ad2e6941eb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlParameter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlType.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/tupi_processor_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tupi-processor/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/extensions/TypeElementExtensions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlBuilder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlDefinition.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/dtos/classWithAllProperties.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/dtos/complexClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/dtos/simpleClass.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/tupi-annotation/tupi-annotation_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/tupi-annotation/tupi-annotation_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/tupi-processor/tupi-processor_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/tupi-processor/tupi-processor_main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/tupi-processor/tupi-processor_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/tupi-processor/tupi-processor_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/tupi-sample/tupi-sample_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/tupi-sample/tupi-sample_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/tupi-sample/tupi-sample_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/tupi-sample/tupi-sample_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/tupi-annotation/META-INF/tupi-annotation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/tupi-processor/META-INF/tupi-processor.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/tupi-sample/META-INF/tupi-sample.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tupi-annotation/src/main/kotlin/SwaggerParameter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-annotation/src/main/kotlin/SwaggerParameter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tupi-annotation/src/main/kotlin/SwaggerResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-annotation/src/main/kotlin/SwaggerResponse.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/GenDocSwagger.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/GenDocSwagger.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/YamlBuilder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/YamlBuilder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/YamlBuilder.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/extensions/StringExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/extensions/StringExtensions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlOperation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlOperation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/extensions/KClassExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/extensions/TypeElementExtensions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/extensions/KTypeExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/extensions/TypeMirrorExtensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlParameter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlParameter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/extensions/TypeElementExtensions.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/extensions/TypeMirrorExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/extensions/TypeMirrorExtensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/Order.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/ProductInformation.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/ProductInformationItem.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/YamlSerializerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/YamlSerializerTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tupi-sample/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-sample/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tupi-sample/src/main/kotlin/Order.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-sample/src/main/kotlin/Order.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tupi-sample/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-sample/src/main/kotlin/main.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -44,6 +68,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tupi" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-692088679">
       <usages-collector id="statistics.lifecycle.project">
@@ -57,31 +98,36 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="java" value="3" />
-          <entry key="kt" value="34" />
-          <entry key="yml" value="3" />
+          <entry key="gradle" value="5" />
+          <entry key="java" value="4" />
+          <entry key="kt" value="122" />
+          <entry key="log" value="4" />
+          <entry key="yml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
-          <entry key="Kotlin" value="34" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="YAML" value="3" />
+          <entry key="Groovy" value="5" />
+          <entry key="JAVA" value="4" />
+          <entry key="Kotlin" value="122" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="YAML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="271" />
-          <entry key="kt" value="6957" />
-          <entry key="yml" value="6" />
+          <entry key="gradle" value="1" />
+          <entry key="kt" value="11709" />
+          <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="6957" />
+          <entry key="Groovy" value="1" />
+          <entry key="Kotlin" value="11709" />
           <entry key="PLAIN_TEXT" value="271" />
-          <entry key="YAML" value="6" />
+          <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -90,64 +136,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/GenDocSwagger.kt">
+        <entry file="file://$PROJECT_DIR$/tupi-annotation/src/main/kotlin/SwaggerResponse.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlBuilder.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
               <folding>
-                <element signature="e#24#524#0" expanded="true" />
+                <element signature="n#!!block;n#write#0;n#!!block;n#YamlBuilder#0" />
+                <element signature="n#!!block;n#buildDefinitions#0;n#!!block;n#YamlBuilder#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/YamlBuilder.kt">
+        <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlParameter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="79" column="25" lean-forward="true" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="e#24#437#0" expanded="true" />
-                <element signature="n#!!block;n#getReturnedType#0;n#!!block;n#YamlBuilder#0" />
+                <element signature="e#29#283#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlType.kt">
+        <entry file="file://$PROJECT_DIR$/tupi-annotation/src/main/kotlin/SwaggerParameter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="105">
+              <caret line="7" column="146" selection-start-line="7" selection-start-column="146" selection-end-line="7" selection-end-column="146" />
               <folding>
-                <element signature="e#29#157#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/extensions/TypeElementExtensions.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="81" column="35" lean-forward="true" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
-              <folding>
-                <element signature="e#40#266#0" expanded="true" />
-                <element signature="n#!!block;n#isPrimitiveTypes#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/extensions/TypeMirrorExtensions.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="70" column="46" lean-forward="true" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
-              <folding>
-                <element signature="n#!!block;n#isKotlinType#0" />
-                <element signature="n#!!block;n#isCollection#0" />
-                <element signature="n#!!block;n#getInnerCollectionType#0" />
+                <element signature="e#26#104#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,8 +184,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tupi-sample/src/main/kotlin/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="62" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="62" />
+            <state relative-caret-position="315">
+              <caret line="23" selection-start-line="23" selection-end-line="27" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -165,17 +193,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tupi-sample/build/generated/source/kaptKotlin/main/swagger_api.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="49" column="10" lean-forward="true" selection-end-line="75" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+            <state relative-caret-position="-27">
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -185,9 +204,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#/definitions/</find>
+      <find>definitions</find>
+      <find>this</find>
+      <find>(this</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -195,7 +223,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.8-all/41c9mvq2w0645xx6nsenaerjl/gradle-4.8" />
+        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.8-bin/divx0s2uj4thofgytb7gf9fsi/gradle-4.8" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -895,14 +923,14 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="10795405798000" />
+        <entry key="$PROJECT_DIR$" value="10795756812000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="4084274257" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1307359486" />
         <entry key="$PROJECT_DIR$/tupi-annotation/build.gradle" value="1718122176" />
         <entry key="$PROJECT_DIR$/tupi-processor/build.gradle" value="2430225416" />
-        <entry key="$PROJECT_DIR$/tupi-sample/build.gradle" value="810346698" />
+        <entry key="$PROJECT_DIR$/tupi-sample/build.gradle" value="3787756320" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1255,19 +1283,43 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlParamter.kt" />
-        <option value="$PROJECT_DIR$/tupi-sample/src/main/kotlin/main.kt" />
-        <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlResponse.kt" />
-        <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlParameter.kt" />
-        <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/GenDocSwagger.kt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/tupi-sample/build.gradle" />
+        <option value="$PROJECT_DIR$/tupi-sample/src/main/kotlin/simpleClass.kt" />
+        <option value="$PROJECT_DIR$/tupi-sample/src/main/kotlin/dtos/simpleClass.kt" />
+        <option value="$PROJECT_DIR$/tupi-sample/src/main/kotlin/dtos/classWithAllProperties.kt" />
+        <option value="$PROJECT_DIR$/tupi-sample/src/main/kotlin/dtos/complexClass.kt" />
+        <option value="$PROJECT_DIR$/tupi-processor/src/test/kotlin/dtos/classWithAllProperties.kt" />
+        <option value="$PROJECT_DIR$/tupi-processor/src/test/kotlin/dtos/complexClass.kt" />
+        <option value="$PROJECT_DIR$/tupi-processor/src/test/kotlin/dtos/simpleClass.kt" />
+        <option value="$PROJECT_DIR$/teste.log" />
         <option value="$PROJECT_DIR$/tupi-sample/build/generated/source/kaptKotlin/main/swagger_api.yml" />
         <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlOperation.kt" />
-        <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/extensions/TypeElementExtensions.kt" />
-        <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlType.kt" />
-        <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/YamlBuilder.kt" />
         <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/extensions/TypeMirrorExtensions.kt" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/extensions/TypeElementExtensions.kt" />
+        <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/extensions/StringExtensions.kt" />
+        <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/extensions/TypeElementExtensions.kt" />
+        <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/YamlBuilder.kt" />
+        <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/extensions/TypeMirrorExtensions.kt" />
+        <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlResponse.kt" />
+        <option value="$PROJECT_DIR$/tupi-processor/src/test/kotlin/YamlSerializerTest.kt" />
+        <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/GenDocSwagger.kt" />
+        <option value="$PROJECT_DIR$/tupi-sample/src/main/kotlin/Order.kt" />
+        <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlType.kt" />
+        <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlDefinition.kt" />
+        <option value="$PROJECT_DIR$/tupi-annotation/src/main/kotlin/SwaggerResponse.kt" />
+        <option value="$PROJECT_DIR$/tupi-annotation/src/main/kotlin/SwaggerParameter.kt" />
+        <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlParameter.kt" />
+        <option value="$PROJECT_DIR$/tupi-sample/src/main/kotlin/main.kt" />
+        <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlBuilder.kt" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -1303,6 +1355,32 @@
             <path>
               <item name="tupi" type="b2602c69:ProjectViewProjectNode" />
               <item name="tupi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="tupi-annotation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="tupi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tupi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="tupi-annotation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tupi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tupi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="tupi-annotation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="tupi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tupi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="tupi-annotation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tupi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tupi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="tupi-processor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -1333,21 +1411,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="yaml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tupi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tupi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="tupi-processor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="yaml" type="462c0819:PsiDirectoryNode" />
               <item name="extensions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tupi" type="b2602c69:ProjectViewProjectNode" />
               <item name="tupi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="tupi-processor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="yaml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tupi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tupi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="tupi-sample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -1410,6 +1487,36 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tupi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="tupi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="tupi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kotlin-stdlib-1.3.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tupi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kotlin-stdlib-1.3.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tupi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kotlin-stdlib-1.3.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1418,7 +1525,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542390458685" />
+    <property name="SearchEverywhereHistoryKey" value="teste.&#9;FILE&#9;file:///Users/gibran/Documents/Projetos/pocs/tupi/teste.log" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542419382673" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="yaml" />
+      <recent name="dtos" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tupi-processor/src/main/kotlin/extensions" />
+      <recent name="$PROJECT_DIR$/tupi-processor/src/test/kotlin" />
+      <recent name="$PROJECT_DIR$/tupi-processor/src/test" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1463,12 +1585,12 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25274727" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.3295964" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3295964" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="2" weight="0.3295964" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.4993895" weight="0.3295964" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.498779" visible="true" weight="0.3295964" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.501221" side_tool="true" weight="0.3295964" />
+      <window_info anchor="bottom" id="Build" order="2" sideWeight="0.4993895" weight="0.3295964" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3295964" />
@@ -1477,12 +1599,12 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3295964" />
-      <window_info anchor="right" id="Gradle" order="0" />
+      <window_info anchor="right" id="Gradle" order="0" weight="0.32967034" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Key Promoter X" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
@@ -1496,23 +1618,24 @@
       <window_info id="Image Layers" order="4" />
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3295964" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="2" weight="0.3295964" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.3295964" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.3295964" />
-      <window_info anchor="right" id="Gradle" order="0" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4993895" weight="0.3295964" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.498779" visible="true" weight="0.3295964" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.501221" side_tool="true" weight="0.3295964" />
+      <window_info anchor="bottom" id="Build" order="3" sideWeight="0.4993895" weight="0.3295964" />
+      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3295964" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.3295964" />
+      <window_info anchor="right" id="Gradle" order="0" weight="0.32967034" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Key Promoter X" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
@@ -1523,9 +1646,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/extensions/StringBuilderExtensions.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.0/98515ba3feb571f93b923e61f643bdaed59d14ac/kotlin-stdlib-1.3.0-sources.jar!/kotlin/Any.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
@@ -1547,101 +1667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlResponse.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="e#29#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlParameter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlOperation.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-          <folding>
-            <element signature="e#29#168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/GenDocSwagger.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="e#24#524#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tupi-sample/src/main/kotlin/main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="62" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/extensions/TypeElementExtensions.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="81" column="35" lean-forward="true" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
-          <folding>
-            <element signature="e#40#266#0" expanded="true" />
-            <element signature="n#!!block;n#isPrimitiveTypes#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlType.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="e#29#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/YamlBuilder.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="79" column="25" lean-forward="true" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
-          <folding>
-            <element signature="e#24#437#0" expanded="true" />
-            <element signature="n#!!block;n#getReturnedType#0;n#!!block;n#YamlBuilder#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/extensions/TypeMirrorExtensions.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="70" column="46" lean-forward="true" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
-          <folding>
-            <element signature="n#!!block;n#isKotlinType#0" />
-            <element signature="n#!!block;n#isCollection#0" />
-            <element signature="n#!!block;n#getInnerCollectionType#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tupi-sample/build/generated/source/kaptKotlin/main/swagger_api.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="49" column="10" lean-forward="true" selection-end-line="75" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1649,12 +1674,325 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-processor/src/test/kotlin/Order.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-processor/src/test/kotlin/ProductInformationItem.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-processor/src/test/kotlin/ProductInformation.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-processor/src/test/kotlin/dtos/simpleClass.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-processor/src/test/kotlin/dtos/complexClass.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-processor/src/test/kotlin/dtos/classWithAllProperties.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-processor/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-sample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi.sample.Item.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teste.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/extensions/StringBuilderExtensions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/extensions/StringExtensions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/extensions/TypeMirrorExtensions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="n#!!block;n#toYaml#0" />
+            <element signature="n#!!block;n#isCollection#0" />
+            <element signature="n#!!block;n#isKotlinType#0" />
+            <element signature="n#!!block;n#getInnerCollectionType#0" />
+            <element signature="n#!!block;n#parseCollectionToYaml#0" />
+            <element signature="n#!!block;n#writeReferenceType#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-processor/src/test/kotlin/YamlSerializerTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-sample/src/main/kotlin/Order.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-annotation/src/main/kotlin/SwaggerResponse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/GenDocSwagger.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding>
+            <element signature="e#24#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.0/98515ba3feb571f93b923e61f643bdaed59d14ac/kotlin-stdlib-1.3.0-sources.jar!/kotlin/annotation/Annotations.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-annotation/src/main/kotlin/ParameterType.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlOperation.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="e#29#111#0" expanded="true" />
+            <element signature="n#!!block;n#toString#0;n#!!block;n#YamlOperation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/extensions/TypeElementExtensions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#35#204#0" expanded="true" />
+            <element signature="n#!!block;n#toYaml#0" />
+            <element signature="n#!!block;n#writeTypeElement#0" />
+            <element signature="n#!!block;n#toYamlDefinition#0" />
+            <element signature="n#!!block;n#isRequired#0" />
+            <element signature="n#!!block;n#writeProperty#0" />
+            <element signature="n#!!block;n#addRefType#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlResponse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="62" lean-forward="true" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlDefinition.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="e#29#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-sample/build/generated/source/kaptKotlin/main/swagger_api.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-sample/src/main/kotlin/main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" selection-start-line="23" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-annotation/src/main/kotlin/SwaggerParameter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="146" selection-start-line="7" selection-start-column="146" selection-end-line="7" selection-end-column="146" />
+          <folding>
+            <element signature="e#26#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlParameter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#29#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlBuilder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!block;n#write#0;n#!!block;n#YamlBuilder#0" />
+            <element signature="n#!!block;n#buildDefinitions#0;n#!!block;n#YamlBuilder#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>tupi-processor:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Kotlin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>tupi-sample_test|tupi-sample</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: com.google.auto.service:auto-service:1.0-rc4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

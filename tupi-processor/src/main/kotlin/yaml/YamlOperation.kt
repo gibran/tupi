@@ -2,13 +2,13 @@ package tupi.processor.yaml
 
 import tupi.annotations.SwaggerOperation
 import tupi.processor.extensions.toString
-import javax.annotation.processing.ProcessingEnvironment
 
-class YamlOperation(private val routePath: String, private val methodName: String, val operation: SwaggerOperation) {
+internal class YamlOperation(private val routePath: String, private val methodName: String, private val operation: SwaggerOperation) {
 
     val responses = HashMap<String, YamlResponse>()
     val parameters = HashMap<String, YamlParameter>()
-    fun toString(context: ProcessingEnvironment): String {
+
+    override fun toString(): String {
 
         val result = StringBuilder()
         val operationId = "${operation.method.toString().toLowerCase()}_${methodName.toLowerCase()}"
@@ -25,14 +25,14 @@ class YamlOperation(private val routePath: String, private val methodName: Strin
             result.appendln("\t\tparameters: ")
 
         parameters.forEach { parameter ->
-            result.appendln("${parameter.value.toString(context)}")
+            result.appendln("${parameter.value}")
         }
 
         if (responses.any()) {
             result.appendln("\t\tresponses: ")
 
             responses.forEach { response ->
-                result.append(response.value.toString())
+                result.appendln(response.value.toString())
             }
         }
 

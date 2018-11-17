@@ -1,26 +1,35 @@
 package tupi.processor.yaml
 
 import tupi.annotations.SwaggerParameter
-import tupi.processor.extensions.toString
-import tupi.processor.yaml.extensions.toYaml
-import javax.annotation.processing.ProcessingEnvironment
-import javax.lang.model.element.VariableElement
+import tupi.processor.extensions.*
+import javax.lang.model.type.MirroredTypeException
+import javax.lang.model.type.TypeMirror
 
-class YamlParameter (private val parameterType: VariableElement) {
+internal class YamlParameter(private val parameter: SwaggerParameter) {
 
-    fun toString(context: ProcessingEnvironment): String {
+    var parameterType: TypeMirror = getType(parameter)!!
+        private set
+
+    override fun toString(): String {
 
         val result = StringBuilder()
 
-        val parameter = parameterType.getAnnotation(SwaggerParameter::class.java)
-        val isRequired =  !parameterType.annotationMirrors.any { it.annotationType.toString() == "org.jetbrains.annotations.Nullable" }
-
-        result.appendln("- name: ${parameterType.simpleName}")
-                .appendln("\tin: ${parameter.type.toString().toLowerCase()}")
-                .appendln("\trequired: $isRequired")
+        result.appendln("- name: ${parameter.paramName}")
+                .appendln("\tin: ${parameter.paramType.toString().toLowerCase()}")
+                .appendln("\tdescription: ${parameter.description}")
+                .appendln("\trequired: ${parameter.isRequired}")
                 .appendln("\tschema:")
-                .append("\t\t${parameterType.asType().toYaml(context)}") //TODO: Write type
+                .append("\t${this.parameterType.toYaml()}")
 
         return result.toString(lineIdent = "\t\t\t")
+    }
+
+    private fun getType(parameterType: SwaggerParameter): TypeMirror? {
+        return try {
+            parameterType.type
+            null
+        } catch (e: MirroredTypeException) {
+            e.typeMirror
+        }
     }
 }

@@ -26,6 +26,5 @@ sourceSets {
 dependencies {
     kapt project(":tupi-processor")
     compileOnly project(":tupi-processor")
-    compileOnly project(":tupi-annotation")
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 }

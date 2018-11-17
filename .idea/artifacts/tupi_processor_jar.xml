@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="tupi-processor:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/tupi_processor_jar</output-path>
+    <root id="archive" name="tupi-processor.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/tupi-processor/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="tupi-processor_main" />
+      <element id="module-output" name="tupi-annotation_main" />
+    </root>
+  </artifact>
+</component>

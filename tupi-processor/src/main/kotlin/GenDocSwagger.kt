@@ -2,15 +2,11 @@ package tupi.processor
 
 import com.google.auto.service.AutoService
 import tupi.annotations.*
-import tupi.processor.yaml.extensions.isKotlinType
-import tupi.processor.yaml.extensions.toYaml
+import tupi.processor.yaml.YamlBuilder
 import java.io.File
 import javax.annotation.processing.*
 import javax.lang.model.SourceVersion
 import javax.lang.model.element.*
-import javax.lang.model.type.ArrayType
-import javax.lang.model.type.DeclaredType
-import javax.lang.model.type.TypeKind
 import javax.tools.Diagnostic
 
 
@@ -46,6 +42,7 @@ class GenDocSwagger : AbstractProcessor() {
         }
 
         val fileName = "swagger_api"
+
         val yaml = YamlBuilder(processingEnv)
 
         File(kaptKotlinGeneratedDir, "$fileName.yml").bufferedWriter().use { out ->
@@ -61,7 +58,6 @@ class GenDocSwagger : AbstractProcessor() {
                         }
 
                         yaml.addRoute(controllerElement)
-
                     }
 
             out.write(yaml.write())

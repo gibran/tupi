@@ -1,6 +1,9 @@
 apply plugin: 'kotlin'
 apply plugin: 'kotlin-kapt'
 
+group 'tupi-processor'
+version '0.1'
+
 repositories {
     mavenCentral()
 }
@@ -20,6 +23,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     compile "org.jetbrains.kotlin:kotlin-reflect:1.3.0"
+    compile files("${System.properties['java.home']}/../lib/tools.jar")
 
     implementation project(':tupi-annotation')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"

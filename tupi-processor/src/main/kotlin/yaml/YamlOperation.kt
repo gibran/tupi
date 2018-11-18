@@ -8,7 +8,7 @@ internal class YamlOperation(private val routePath: String, private val methodNa
     val responses = HashMap<String, YamlResponse>()
     val parameters = HashMap<String, YamlParameter>()
 
-    override fun toString(): String {
+    fun toString(lineIdent: String): String {
 
         val result = StringBuilder()
         val operationId = "${operation.method.toString().toLowerCase()}_${methodName.toLowerCase()}"
@@ -22,20 +22,20 @@ internal class YamlOperation(private val routePath: String, private val methodNa
             .appendln("\t\t- 'application/json'") //TODO: obter estas informações de um attribute
 
         if (parameters.any())
-            result.appendln("\t\tparameters: ")
+            result.appendln("\t\tparameters:")
 
         parameters.forEach { parameter ->
-            result.appendln("${parameter.value}")
+            result.appendln(parameter.value.toString(lineIdent = "$lineIdent\t\t"))
         }
 
         if (responses.any()) {
-            result.appendln("\t\tresponses: ")
+            result.appendln("\t\tresponses:")
 
             responses.forEach { response ->
-                result.appendln(response.value.toString())
+                result.appendln(response.value.toString("$lineIdent\t\t"))
             }
         }
 
-        return result.toString(lineIdent = "\t")
+        return result.toString(lineIdent = lineIdent)
     }
 }

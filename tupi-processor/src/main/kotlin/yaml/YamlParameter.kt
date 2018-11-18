@@ -10,7 +10,7 @@ internal class YamlParameter(private val parameter: SwaggerParameter) {
     var parameterType: TypeMirror = getType(parameter)!!
         private set
 
-    override fun toString(): String {
+    fun toString(lineIdent: String): String {
 
         val result = StringBuilder()
 
@@ -19,9 +19,9 @@ internal class YamlParameter(private val parameter: SwaggerParameter) {
                 .appendln("\tdescription: ${parameter.description}")
                 .appendln("\trequired: ${parameter.isRequired}")
                 .appendln("\tschema:")
-                .append("\t${this.parameterType.toYaml()}")
+                .append(this.parameterType.toYaml().toString("\t"))
 
-        return result.toString(lineIdent = "\t\t\t")
+        return result.toString(lineIdent)
     }
 
     private fun getType(parameterType: SwaggerParameter): TypeMirror? {

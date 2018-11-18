@@ -1,13 +1,13 @@
 package tupi.processor.yaml
 
+import com.sun.tools.javac.code.Type
 import tupi.annotations.*
 import tupi.processor.extensions.*
 
 import javax.lang.model.element.*
 import javax.lang.model.type.*
-import javax.lang.model.util.Types
 
-internal class YamlSerializer(private val types: Types) {
+internal class YamlSerializer {
 
     private val operations = ArrayList<YamlOperation>()
     private val definitions = HashMap<String, YamlDefinition>()
@@ -15,7 +15,7 @@ internal class YamlSerializer(private val types: Types) {
 
     fun addRoute(controllerElement: Element) {
 
-        val annotationController = controllerElement.getAnnotation(SwaggerRoute::class.java)
+        val annotationController = controllerElement.getAnnotation(SwaggerRoute::class.java) ?: return
 
         controllerElement.enclosedElements
                 .filter { it.getAnnotation(SwaggerOperation::class.java) != null }
@@ -38,12 +38,11 @@ internal class YamlSerializer(private val types: Types) {
                 }
     }
 
-    private fun addDefinition(typeMirror: TypeMirror, typeElement: TypeElement) {
-
-        val yamlType = YamlDefinition(typeElement)
-
-        if (typeMirror.toString() != "kotlin.Unit" && !typeMirror.isKotlinType())
+    private fun addDefinition(typeMirror: TypeMirror, typeElement: Element) {
+        if (typeMirror.toString() != "kotlin.Unit" && !typeMirror.isKotlinType()) {
+            val yamlType = YamlDefinition(typeElement as TypeElement)
             definitions[typeMirror.toString()] = yamlType
+        }
     }
 
     private fun getReturnedType(responseAnnotation: SwaggerResponse): TypeMirror? {
@@ -66,7 +65,8 @@ internal class YamlSerializer(private val types: Types) {
             val paramField = YamlParameter(parameter)
             yamlOperation.parameters[parameter.paramName] = paramField
 
-            val returnedType = types.asElement(paramField.parameterType) as TypeElement
+            val returnedType = (paramField.parameterType as Type).asElement() as TypeElement
+
             addDefinition(paramField.parameterType, returnedType)
         }
     }
@@ -75,7 +75,8 @@ internal class YamlSerializer(private val types: Types) {
         responsesAnnotation?.values?.forEach { responseAnnotation ->
 
             val typeMirror = getReturnedType(responseAnnotation) ?: return
-            val returnedType = types.asElement(typeMirror) as TypeElement
+
+            val returnedType = (typeMirror as Type).asElement()
 
             yamlOperation.responses[typeMirror.toString()] = YamlResponse(returnedType, responseAnnotation)
             addDefinition(typeMirror, returnedType)
@@ -94,7 +95,7 @@ internal class YamlSerializer(private val types: Types) {
 
         result.appendln("paths:")
         operations.forEach { routes ->
-            result.appendln(routes.toString())
+            result.appendln(routes.toString(lineIdent = "\t"))
         }
 
         result.appendln("definitions:")

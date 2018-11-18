@@ -1,27 +1,27 @@
 package tupi.processor.yaml
 
 import tupi.annotations.SwaggerResponse
+import tupi.processor.extensions.toString
 import tupi.processor.extensions.toYaml
-import javax.lang.model.element.TypeElement
+import javax.lang.model.element.Element
 
-class YamlResponse(private val classType: TypeElement, private val response: SwaggerResponse) {
+class YamlResponse(private val classType: Element, private val response: SwaggerResponse) {
 
-    override fun toString(): String {
+    fun toString(lineIdent: String): String {
         val result = StringBuilder()
 
-        result.appendln("\t\t\t${response.status}:")
-                .append("\t\t\t\tdescription: '${response.description}'")
+        result.appendln("${response.status}:")
+                .append("\tdescription: '${response.description}'")
 
         if (classType.simpleName.toString() != "Unit") {
-            result
-                    .appendln("")
-                    .appendln("\t\t\t\tcontent: ")
-                    .appendln("\t\t\t\t\tapplication/json:")
-                    .appendln("\t\t\t\t\t\tschema:")
+            result.appendln("")
+                    .appendln("\tcontent:")
+                    .appendln("\t\tapplication/json:")
+                    .appendln("\t\t\tschema:")
 
-            result.append("\t\t\t\t\t\t${classType.asType().toYaml()}")
+            result.append(classType.asType().toYaml().toString("\t\t\t"))
         }
 
-        return result.toString()
+        return result.toString(lineIdent = lineIdent)
     }
 }

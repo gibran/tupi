@@ -22,9 +22,9 @@ class Teste {
     }
 
     @SwaggerOperation(OperationType.GET, "", "O objetivo desta rota é retornar uma lista de ordens")
-    @SwaggerResponses([SwaggerResponse(400, "ERROS", String::class)])
-    fun Listar(): String {
-        return "ok"
+    @SwaggerResponses([SwaggerResponse(400, "ERROS", Int::class)])
+    fun Listar(): Int {
+        return 1
     }
 }
 

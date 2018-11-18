@@ -41,11 +41,11 @@ class GenDocSwagger : AbstractProcessor() {
             return false
         }
 
-        val fileName = "swagger_api"
+        val fileName = "swagger_api.yml" //TODO: Get this data from properties
 
         val yaml = YamlSerializer()
 
-        File(kaptKotlinGeneratedDir, "$fileName.yml").bufferedWriter().use { out ->
+        File(kaptKotlinGeneratedDir, "$fileName").bufferedWriter().use { out ->
 
             annotatedElements
                     .forEach { controllerElement ->

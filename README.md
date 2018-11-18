@@ -7,7 +7,7 @@ Project responsible to write swagger specification in YAML in Kotlin. This speci
 ##### How it works
 
 We created some annotations to decorate the controller that will be generated the swagger Specification.
-After you decorate your classes with this annotation and build your project, then the swagger_api.yml file will be generated.
+After you decorate your classes with this annotation and build your project, then the `swagger_api.yml` file will be generated.
 
 
 ##### You will need

@@ -10,8 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f43be0a-357b-432a-beac-0ad2e6941eb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/libs/tupi-annotation-0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/tupi-processor-0.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -114,7 +112,7 @@
           <entry key="gitignore" value="271" />
           <entry key="gradle" value="52" />
           <entry key="kt" value="16750" />
-          <entry key="md" value="1320" />
+          <entry key="md" value="1325" />
           <entry key="yml" value="7" />
         </counts>
       </usages-collector>
@@ -122,7 +120,7 @@
         <counts>
           <entry key="Groovy" value="52" />
           <entry key="Kotlin" value="16750" />
-          <entry key="Markdown" value="1320" />
+          <entry key="Markdown" value="1325" />
           <entry key="PLAIN_TEXT" value="271" />
           <entry key="YAML" value="7" />
         </counts>
@@ -145,8 +143,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="458">
-                <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
+              <first_editor relative-caret-position="151">
+                <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
               </first_editor>
               <second_editor />
             </state>
@@ -1354,7 +1352,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="teste.&#9;FILE&#9;file:///Users/gibran/Documents/Projetos/pocs/tupi/teste.log" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542514714499" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542514802750" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3" />
@@ -1514,7 +1512,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25152627" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.25152627" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" sideWeight="0.4993895" visible="true" weight="0.3295964" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.498779" weight="0.3295964" />
@@ -2098,8 +2096,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="458">
-            <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
+          <first_editor relative-caret-position="151">
+            <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
           </first_editor>
           <second_editor />
         </state>

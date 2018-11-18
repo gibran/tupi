@@ -12,7 +12,7 @@ After you decorate your classes with this annotation and build your project, the
 
 ##### You will need
 
-- Add two .jar in your project (tupi-processor.jar and tupi-annotation.jar)
+- Add two [.jar](https://github.com/gibran/tupi/blob/master/libs/) in your project (tupi-processor.jar and tupi-annotation.jar)
 - Add [kapt](https://kotlinlang.org/docs/reference/kapt.html) plugin in your build.gradle `apply plugin: 'kotlin-kapt'`
 - Add dependencies to tupi-processor in you build.gradle
 ```

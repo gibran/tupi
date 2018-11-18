@@ -10,36 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f43be0a-357b-432a-beac-0ad2e6941eb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/controllers/PrimitiveController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/controllers/SimpleController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/controllers/SimpleWithAllKindOfParameterController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/controllers/SimpleWithBodyParameterController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/controllers/SimpleWithComplexResponseController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/controllers/SimpleWithPathParameterController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/controllers/SimpleWithTwoResponsesController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/controllers/SimpleWithoutOperationsController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/controllers/SimpleWithoutRouteAnnotationController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/tupi-annotation/tupi-annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/tupi-annotation/tupi-annotation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/tupi-annotation/tupi-annotation_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/tupi-annotation/tupi-annotation_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/tupi-annotation/tupi-annotation_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/tupi-annotation/tupi-annotation_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/tupi-processor/tupi-processor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/tupi-processor/tupi-processor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/tupi-processor/tupi-processor_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/tupi-processor/tupi-processor_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/tupi-processor/tupi-processor_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/tupi-processor/tupi-processor_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/tupi-sample/tupi-sample_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/tupi-sample/tupi-sample_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/tupi-annotation-0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/tupi-processor-0.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tupi-annotation/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-annotation/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tupi-processor/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-processor/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/GenDocSwagger.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/GenDocSwagger.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/extensions/StringExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/extensions/StringExtensions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlOperation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlOperation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlParameter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlParameter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlSerializer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlSerializer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/YamlSerializerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/YamlSerializerTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tupi-processor/src/test/kotlin/controllers/helloController.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tupi-sample/src/main/kotlin/Order.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-sample/src/main/kotlin/Order.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tupi-sample/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tupi-sample/src/main/kotlin/main.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -120,7 +93,7 @@
           <entry key="java" value="16" />
           <entry key="kt" value="190" />
           <entry key="log" value="4" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="yml" value="15" />
         </counts>
       </usages-collector>
@@ -131,7 +104,7 @@
           <entry key="JAVA" value="16" />
           <entry key="Kotlin" value="190" />
           <entry key="Manifest" value="1" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="YAML" value="15" />
         </counts>
@@ -159,11 +132,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/extensions/StringExtensions.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="458">
+                <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -1309,11 +1294,11 @@
         <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlResponse.kt" />
         <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/yaml/YamlParameter.kt" />
         <option value="$PROJECT_DIR$/tupi-sample/src/main/kotlin/main.kt" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/tupi-processor/build.gradle" />
         <option value="$PROJECT_DIR$/tupi-annotation/build.gradle" />
         <option value="$PROJECT_DIR$/tupi-processor/src/test/kotlin/controllers/SimpleWithBodyParameterController.kt" />
         <option value="$PROJECT_DIR$/tupi-processor/src/main/kotlin/extensions/StringExtensions.kt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1354,24 +1339,6 @@
               <item name="tupi" type="b2602c69:ProjectViewProjectNode" />
               <item name="tupi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="tupi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tupi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tupi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tupi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tupi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tupi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="tupi_processor_jar" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -1387,7 +1354,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="teste.&#9;FILE&#9;file:///Users/gibran/Documents/Projetos/pocs/tupi/teste.log" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542514500004" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542514714499" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3" />
@@ -2076,16 +2043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="518">
-            <caret line="42" column="73" selection-start-line="42" selection-start-column="73" selection-end-line="42" selection-end-column="73" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tupi-processor/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2134,7 +2091,17 @@
     <entry file="file://$PROJECT_DIR$/tupi-processor/src/main/kotlin/extensions/StringExtensions.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="458">
+            <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

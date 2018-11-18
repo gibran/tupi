@@ -40,4 +40,4 @@ class SimpleWithBodyParameterController {
 **SwaggerRoute** -> Define the main path the controller will be respond \
 **SwaggerOperation** -> Define the specific path for the operation \
 **SwaggerResponses** -> Define a array of response for the operation \
-**SwaggerParameters** -> Define a array of parameters for the operation \
+**SwaggerParameters** -> Define a array of parameters for the operation 

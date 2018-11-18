@@ -17,8 +17,9 @@ After you decorate your classes with this annotation and build your project, the
 - Add dependencies to tupi-processor in you build.gradle
 ```
 dependencies {
-     kapt project(":tupi-processor")
-     compileOnly project(":tupi-processor")
+    compile files('libs/tupi-annotation-{VERSION}.jar')
+    compile files('libs/tupi-processor-{VERSION}.jar')
+    kapt files('libs/tupi-processor-{VERSION}.jar')
      ...
 ``` 
 - Decorate your controller like this
